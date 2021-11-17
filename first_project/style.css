@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+div{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 2rem;
+    margin: 2rem;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+}
